@@ -118,9 +118,9 @@
 		DB4B46EB1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */ = {
 			isa = PBXGroup;
 			children = (
-				DB4B46EC1DC1D31A002ED6AF /* main.m */,
 				DB4B46F11DC1D32A002ED6AF /* RITLPeople.h */,
 				DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */,
+				DB4B46EC1DC1D31A002ED6AF /* main.m */,
 			);
 			path = RITLRuntimeIvalsOrPropertys;
 			sourceTree = "<group>";
