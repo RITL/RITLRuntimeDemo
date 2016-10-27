@@ -8,10 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		DB4B46D51DC1CA6F002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46D41DC1CA6F002ED6AF /* main.m */; };
+		DB4B46E21DC1CA88002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46E11DC1CA88002ED6AF /* main.m */; };
+		DB4B46ED1DC1D31A002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46EC1DC1D31A002ED6AF /* main.m */; };
+		DB4B46F31DC1D32A002ED6AF /* RITLPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		DB4B46CF1DC1CA6F002ED6AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB4B46DD1DC1CA88002ED6AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB4B46E81DC1D31A002ED6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +46,30 @@
 /* Begin PBXFileReference section */
 		DB4B46D11DC1CA6F002ED6AF /* RITLRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B46D41DC1CA6F002ED6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4B46DF1DC1CA88002ED6AF /* RITLRuntimeCreateClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntimeCreateClass; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B46E11DC1CA88002ED6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4B46EA1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntimeIvalsOrPropertys; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4B46EC1DC1D31A002ED6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB4B46F11DC1D32A002ED6AF /* RITLPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPeople.h; sourceTree = "<group>"; };
+		DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPeople.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DB4B46CE1DC1CA6F002ED6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4B46DC1DC1CA88002ED6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4B46E71DC1D31A002ED6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				DB4B46D31DC1CA6F002ED6AF /* RITLRuntime */,
+				DB4B46E01DC1CA88002ED6AF /* RITLRuntimeCreateClass */,
+				DB4B46EB1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 				DB4B46D21DC1CA6F002ED6AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				DB4B46D11DC1CA6F002ED6AF /* RITLRuntime */,
+				DB4B46DF1DC1CA88002ED6AF /* RITLRuntimeCreateClass */,
+				DB4B46EA1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +105,24 @@
 				DB4B46D41DC1CA6F002ED6AF /* main.m */,
 			);
 			path = RITLRuntime;
+			sourceTree = "<group>";
+		};
+		DB4B46E01DC1CA88002ED6AF /* RITLRuntimeCreateClass */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B46E11DC1CA88002ED6AF /* main.m */,
+			);
+			path = RITLRuntimeCreateClass;
+			sourceTree = "<group>";
+		};
+		DB4B46EB1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B46EC1DC1D31A002ED6AF /* main.m */,
+				DB4B46F11DC1D32A002ED6AF /* RITLPeople.h */,
+				DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */,
+			);
+			path = RITLRuntimeIvalsOrPropertys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +145,40 @@
 			productReference = DB4B46D11DC1CA6F002ED6AF /* RITLRuntime */;
 			productType = "com.apple.product-type.tool";
 		};
+		DB4B46DE1DC1CA88002ED6AF /* RITLRuntimeCreateClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4B46E31DC1CA88002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeCreateClass" */;
+			buildPhases = (
+				DB4B46DB1DC1CA88002ED6AF /* Sources */,
+				DB4B46DC1DC1CA88002ED6AF /* Frameworks */,
+				DB4B46DD1DC1CA88002ED6AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLRuntimeCreateClass;
+			productName = RITLRuntimeCreateClass;
+			productReference = DB4B46DF1DC1CA88002ED6AF /* RITLRuntimeCreateClass */;
+			productType = "com.apple.product-type.tool";
+		};
+		DB4B46E91DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4B46EE1DC1D31A002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeIvalsOrPropertys" */;
+			buildPhases = (
+				DB4B46E61DC1D31A002ED6AF /* Sources */,
+				DB4B46E71DC1D31A002ED6AF /* Frameworks */,
+				DB4B46E81DC1D31A002ED6AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLRuntimeIvalsOrPropertys;
+			productName = RITLRuntimeIvalsOrPropertys;
+			productReference = DB4B46EA1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +189,16 @@
 				ORGANIZATIONNAME = YueWen;
 				TargetAttributes = {
 					DB4B46D01DC1CA6F002ED6AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HMFNLUC68;
+						ProvisioningStyle = Automatic;
+					};
+					DB4B46DE1DC1CA88002ED6AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HMFNLUC68;
+						ProvisioningStyle = Automatic;
+					};
+					DB4B46E91DC1D31A002ED6AF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8HMFNLUC68;
 						ProvisioningStyle = Automatic;
@@ -111,6 +218,8 @@
 			projectRoot = "";
 			targets = (
 				DB4B46D01DC1CA6F002ED6AF /* RITLRuntime */,
+				DB4B46DE1DC1CA88002ED6AF /* RITLRuntimeCreateClass */,
+				DB4B46E91DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +230,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4B46D51DC1CA6F002ED6AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4B46DB1DC1CA88002ED6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4B46E21DC1CA88002ED6AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4B46E61DC1D31A002ED6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4B46ED1DC1D31A002ED6AF /* main.m in Sources */,
+				DB4B46F31DC1D32A002ED6AF /* RITLPeople.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +356,40 @@
 			};
 			name = Release;
 		};
+		DB4B46E41DC1CA88002ED6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB4B46E51DC1CA88002ED6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB4B46EF1DC1D31A002ED6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB4B46F01DC1D31A002ED6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -247,6 +407,22 @@
 			buildConfigurations = (
 				DB4B46D91DC1CA6F002ED6AF /* Debug */,
 				DB4B46DA1DC1CA6F002ED6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB4B46E31DC1CA88002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeCreateClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4B46E41DC1CA88002ED6AF /* Debug */,
+				DB4B46E51DC1CA88002ED6AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB4B46EE1DC1D31A002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeIvalsOrPropertys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4B46EF1DC1D31A002ED6AF /* Debug */,
+				DB4B46F01DC1D31A002ED6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
