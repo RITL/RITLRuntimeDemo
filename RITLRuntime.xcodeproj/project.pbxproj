@@ -11,6 +11,7 @@
 		DB4B46E21DC1CA88002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46E11DC1CA88002ED6AF /* main.m */; };
 		DB4B46ED1DC1D31A002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46EC1DC1D31A002ED6AF /* main.m */; };
 		DB4B46F31DC1D32A002ED6AF /* RITLPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */; };
+		DB4B46F71DC1DC22002ED6AF /* RITLPeople+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46F61DC1DC22002ED6AF /* RITLPeople+Associated.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +53,8 @@
 		DB4B46EC1DC1D31A002ED6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB4B46F11DC1D32A002ED6AF /* RITLPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPeople.h; sourceTree = "<group>"; };
 		DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPeople.m; sourceTree = "<group>"; };
+		DB4B46F51DC1DC22002ED6AF /* RITLPeople+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RITLPeople+Associated.h"; sourceTree = "<group>"; };
+		DB4B46F61DC1DC22002ED6AF /* RITLPeople+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RITLPeople+Associated.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +121,21 @@
 		DB4B46EB1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */ = {
 			isa = PBXGroup;
 			children = (
+				DB4B46F41DC1DC0A002ED6AF /* Associated */,
 				DB4B46F11DC1D32A002ED6AF /* RITLPeople.h */,
 				DB4B46F21DC1D32A002ED6AF /* RITLPeople.m */,
 				DB4B46EC1DC1D31A002ED6AF /* main.m */,
 			);
 			path = RITLRuntimeIvalsOrPropertys;
+			sourceTree = "<group>";
+		};
+		DB4B46F41DC1DC0A002ED6AF /* Associated */ = {
+			isa = PBXGroup;
+			children = (
+				DB4B46F51DC1DC22002ED6AF /* RITLPeople+Associated.h */,
+				DB4B46F61DC1DC22002ED6AF /* RITLPeople+Associated.m */,
+			);
+			path = Associated;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4B46ED1DC1D31A002ED6AF /* main.m in Sources */,
+				DB4B46F71DC1DC22002ED6AF /* RITLPeople+Associated.m in Sources */,
 				DB4B46F31DC1D32A002ED6AF /* RITLPeople.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +423,7 @@
 				DB4B46DA1DC1CA6F002ED6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB4B46E31DC1CA88002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeCreateClass" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +432,7 @@
 				DB4B46E51DC1CA88002ED6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB4B46EE1DC1D31A002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntimeIvalsOrPropertys" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +441,7 @@
 				DB4B46F01DC1D31A002ED6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
