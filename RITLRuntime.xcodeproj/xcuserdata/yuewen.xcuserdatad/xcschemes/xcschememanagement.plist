@@ -19,10 +19,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>RITLRuntimeForwardMethod.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>RITLRuntimeIvalsOrPropertys.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>RITLRuntimeMethod.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
 		</dict>
 		<key>RITLRuntimeModel.xcscheme</key>
 		<dict>
@@ -32,6 +42,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DB0165071DC2E25D00BA290E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DB0165151DC2E45000BA290E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DB4B46D01DC1CA6F002ED6AF</key>
 		<dict>
 			<key>primary</key>

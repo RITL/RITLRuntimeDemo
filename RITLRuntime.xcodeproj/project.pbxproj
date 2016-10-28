@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB01650B1DC2E25D00BA290E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB01650A1DC2E25D00BA290E /* main.m */; };
+		DB0165111DC2E27300BA290E /* RITLPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0165101DC2E27300BA290E /* RITLPeople.m */; };
+		DB0165191DC2E45000BA290E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0165181DC2E45000BA290E /* main.m */; };
+		DB01651F1DC2E46700BA290E /* RITLPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DB01651E1DC2E46700BA290E /* RITLPeople.m */; };
+		DB0165221DC2E4A900BA290E /* RITLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0165211DC2E4A900BA290E /* RITLDog.m */; };
 		DB4B46D51DC1CA6F002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46D41DC1CA6F002ED6AF /* main.m */; };
 		DB4B46E21DC1CA88002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46E11DC1CA88002ED6AF /* main.m */; };
 		DB4B46ED1DC1D31A002ED6AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4B46EC1DC1D31A002ED6AF /* main.m */; };
@@ -19,6 +24,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		DB0165061DC2E25D00BA290E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DB0165141DC2E45000BA290E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		DB4B46CF1DC1CA6F002ED6AF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,6 +90,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB0165081DC2E25D00BA290E /* RITLRuntimeMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntimeMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB01650A1DC2E25D00BA290E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB01650F1DC2E27300BA290E /* RITLPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPeople.h; sourceTree = "<group>"; };
+		DB0165101DC2E27300BA290E /* RITLPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPeople.m; sourceTree = "<group>"; };
+		DB0165161DC2E45000BA290E /* RITLRuntimeForwardMethod */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntimeForwardMethod; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0165181DC2E45000BA290E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB01651D1DC2E46700BA290E /* RITLPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLPeople.h; sourceTree = "<group>"; };
+		DB01651E1DC2E46700BA290E /* RITLPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLPeople.m; sourceTree = "<group>"; };
+		DB0165201DC2E4A900BA290E /* RITLDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITLDog.h; sourceTree = "<group>"; };
+		DB0165211DC2E4A900BA290E /* RITLDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RITLDog.m; sourceTree = "<group>"; };
 		DB4B46D11DC1CA6F002ED6AF /* RITLRuntime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntime; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4B46D41DC1CA6F002ED6AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB4B46DF1DC1CA88002ED6AF /* RITLRuntimeCreateClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RITLRuntimeCreateClass; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +121,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DB0165051DC2E25D00BA290E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0165131DC2E45000BA290E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB4B46CE1DC1CA6F002ED6AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +173,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB0165091DC2E25D00BA290E /* RITLRuntimeMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DB01650A1DC2E25D00BA290E /* main.m */,
+				DB01650F1DC2E27300BA290E /* RITLPeople.h */,
+				DB0165101DC2E27300BA290E /* RITLPeople.m */,
+			);
+			path = RITLRuntimeMethod;
+			sourceTree = "<group>";
+		};
+		DB0165171DC2E45000BA290E /* RITLRuntimeForwardMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DB01651D1DC2E46700BA290E /* RITLPeople.h */,
+				DB01651E1DC2E46700BA290E /* RITLPeople.m */,
+				DB0165201DC2E4A900BA290E /* RITLDog.h */,
+				DB0165211DC2E4A900BA290E /* RITLDog.m */,
+				DB0165181DC2E45000BA290E /* main.m */,
+			);
+			path = RITLRuntimeForwardMethod;
+			sourceTree = "<group>";
+		};
 		DB4B46C81DC1CA6F002ED6AF = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +203,8 @@
 				DB4B46EB1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 				DB4B46FD1DC1E20C002ED6AF /* RITLRuntimeEncode */,
 				DB4B470B1DC1E578002ED6AF /* RITLRuntimeModel */,
+				DB0165091DC2E25D00BA290E /* RITLRuntimeMethod */,
+				DB0165171DC2E45000BA290E /* RITLRuntimeForwardMethod */,
 				DB4B46D21DC1CA6F002ED6AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,6 +217,8 @@
 				DB4B46EA1DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 				DB4B46FC1DC1E20C002ED6AF /* RITLRuntimeEncode */,
 				DB4B470A1DC1E578002ED6AF /* RITLRuntimeModel */,
+				DB0165081DC2E25D00BA290E /* RITLRuntimeMethod */,
+				DB0165161DC2E45000BA290E /* RITLRuntimeForwardMethod */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,6 +282,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DB0165071DC2E25D00BA290E /* RITLRuntimeMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB01650E1DC2E25D00BA290E /* Build configuration list for PBXNativeTarget "RITLRuntimeMethod" */;
+			buildPhases = (
+				DB0165041DC2E25D00BA290E /* Sources */,
+				DB0165051DC2E25D00BA290E /* Frameworks */,
+				DB0165061DC2E25D00BA290E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLRuntimeMethod;
+			productName = RITLRuntimeMethod;
+			productReference = DB0165081DC2E25D00BA290E /* RITLRuntimeMethod */;
+			productType = "com.apple.product-type.tool";
+		};
+		DB0165151DC2E45000BA290E /* RITLRuntimeForwardMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB01651A1DC2E45000BA290E /* Build configuration list for PBXNativeTarget "RITLRuntimeForwardMethod" */;
+			buildPhases = (
+				DB0165121DC2E45000BA290E /* Sources */,
+				DB0165131DC2E45000BA290E /* Frameworks */,
+				DB0165141DC2E45000BA290E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLRuntimeForwardMethod;
+			productName = RITLRuntimeForwardMethod;
+			productReference = DB0165161DC2E45000BA290E /* RITLRuntimeForwardMethod */;
+			productType = "com.apple.product-type.tool";
+		};
 		DB4B46D01DC1CA6F002ED6AF /* RITLRuntime */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB4B46D81DC1CA6F002ED6AF /* Build configuration list for PBXNativeTarget "RITLRuntime" */;
@@ -303,6 +410,16 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = YueWen;
 				TargetAttributes = {
+					DB0165071DC2E25D00BA290E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HMFNLUC68;
+						ProvisioningStyle = Automatic;
+					};
+					DB0165151DC2E45000BA290E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8HMFNLUC68;
+						ProvisioningStyle = Automatic;
+					};
 					DB4B46D01DC1CA6F002ED6AF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8HMFNLUC68;
@@ -347,11 +464,32 @@
 				DB4B46E91DC1D31A002ED6AF /* RITLRuntimeIvalsOrPropertys */,
 				DB4B46FB1DC1E20C002ED6AF /* RITLRuntimeEncode */,
 				DB4B47091DC1E578002ED6AF /* RITLRuntimeModel */,
+				DB0165071DC2E25D00BA290E /* RITLRuntimeMethod */,
+				DB0165151DC2E45000BA290E /* RITLRuntimeForwardMethod */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DB0165041DC2E25D00BA290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB01650B1DC2E25D00BA290E /* main.m in Sources */,
+				DB0165111DC2E27300BA290E /* RITLPeople.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0165121DC2E45000BA290E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB0165221DC2E4A900BA290E /* RITLDog.m in Sources */,
+				DB0165191DC2E45000BA290E /* main.m in Sources */,
+				DB01651F1DC2E46700BA290E /* RITLPeople.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB4B46CD1DC1CA6F002ED6AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -399,6 +537,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		DB01650C1DC2E25D00BA290E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB01650D1DC2E25D00BA290E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB01651B1DC2E45000BA290E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB01651C1DC2E45000BA290E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8HMFNLUC68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DB4B46D61DC1CA6F002ED6AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -571,6 +741,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DB01650E1DC2E25D00BA290E /* Build configuration list for PBXNativeTarget "RITLRuntimeMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB01650C1DC2E25D00BA290E /* Debug */,
+				DB01650D1DC2E25D00BA290E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB01651A1DC2E45000BA290E /* Build configuration list for PBXNativeTarget "RITLRuntimeForwardMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB01651B1DC2E45000BA290E /* Debug */,
+				DB01651C1DC2E45000BA290E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		DB4B46CC1DC1CA6F002ED6AF /* Build configuration list for PBXProject "RITLRuntime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -623,6 +809,7 @@
 				DB4B470F1DC1E578002ED6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
